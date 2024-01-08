@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta charset="UTF-8"/>
+        <meta name=author content="Mickael Sereno" />
+
+        <script type="text/javascript" src="scripts/bower_components/xmlhttprequest/XMLHttpRequest.js"></script>
+		<script type="text/javascript" src="scripts/bower_components/angular/angular.js"></script>
+		<script type="text/javascript" src="scripts/bower_components/angular-animate/angular-animate.js"></script>
+		<script type="text/javascript" src="scripts/bower_components/angular-sanitize/angular-sanitize.js"></script>
+		<script type="text/javascript" src="scripts/bower_components/angular-bootstrap/ui-bootstrap.js"></script>
+		<script type="text/javascript" src="scripts/bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+		<script type="text/javascript" src="scripts/publications.js"></script>
+
+
+        <link rel="stylesheet" type="text/css" href="scripts/bower_components/bootstrap/dist/css/bootstrap.css">
+        <link rel="stylesheet" href="style.css" />
+        <style type="text/css">
+            .modal-content iframe{
+                margin: 0 auto;
+                display: block;
+            }
+            .modal-body {
+                width:auto;
+                padding:0px;
+                background:transparent;
+            }
+            .modal-content {
+                min-width:0px;
+                border:0px;
+                padding:0px;
+                margin:0px;
+                background-color:transparent;
+                box-shadow: none;
+            }
+        </style>
+		<title>Mickael SERENO: Publications</title>
+	</head>
+
+    <body ng-app="myApp">
+
+        <script type="text/ng-template" id="modalOpenVideo.html">
+            <div class="modal-body">
+                <iframe ng-src="{{video | trusted}}" allowfullscreen width=620 height=480 frameborder="0"/>
+            </div>
+        </script>
+
+        <div ng-controller="PublicationCtrl">
+            <div id="menu">
+                 <ul>
+                    <li><a href=#Posters>Posters</a></li>
+                    <li><a href=#FullPapers>Publications</a></li>
+                    <li><a href=index.html style="text-decoration: underline;">CV</a></li>
+                </ul>
+            </div>
+
+            <div id=corps>
+                <table class=publicationContent>
+                    <tr class="trPublicationHeader">
+                        <td colspan="5">
+                            <h2 id=Posters style="margin-top:20px;" class=publicationHeader>Posters</h2>
+                        </td>
+                    </tr>
+
+                    <tr ng-repeat="poster in publications.posters" ng-model="publications">
+                        <td>
+                            {{poster.year}}
+                        </td>
+                        <td>
+                            <p>
+                                {{poster.authors}}, <span class=publicationTitle>"{{poster.title}}"</span>, {{poster.venue}}<span ng-if="poster.month != null">, {{poster.month}} </span>{{poster.year}}, {{poster.address}}<a ng-if="poster.doi != null" href="https://doi.org/{{poster.doi}}">, {{poster.doi}}</a>
+                            </p>
+                        </td>
+                        <td>
+                            <div>
+                                <a href={{poster.publicationLink}} ng-if="poster.publicationLink != null"><img src="Resources/file.svg"/></a>
+                            </div>
+                        </td>
+                        <td>
+                            <div>
+                                <img src="Resources/video.svg" width=50px ng-click=openVideoLink(poster.videoLink) ng-if="poster.videoLink != null"/>
+                            </div>
+                        </td>
+                        <td>
+                            <div>
+                                <a href={{poster.posterLink}} ng-if="poster.posterLink != null"><img src="Resources/file.svg" width=50px/></a>
+                            </div>
+                        </td>
+                    </tr>
+
+                    <tr class="trPublicationHeader">
+                        <td colspan="5">
+                            <h2 id=FullPapers class=publicationHeader>Publications</h2>
+                        </td>
+                    </tr>
+
+                    <tr ng-repeat="paper in publications.papers" ng-model="publications">
+                        <td>
+                            {{paper.year}}
+                        </td>
+                        <td>
+                            <p>
+                                {{paper.authors}}, <span class=publicationTitle>"{{paper.title}}"</span>, {{paper.venue}}, <span ng-if="paper.month != null">{{paper.month}}</span> {{paper.year}}<span ng-if="paper.publisher != null">, {{paper.publisher}}</span><span ng-if=paper.refPage != null>, {{paper.refPage}}</span><span ng-if="paper.address != null">, {{paper.address}}</span><a ng-if="paper.doi != null" href="https://doi.org/{{paper.doi}}">, {{paper.doi}}</a>
+                            </p>
+                        </td>
+                        <td>
+                            <div>
+                                <a href={{paper.publicationLink}}><img src="Resources/file.svg" width=100px/></a>
+                            </div>
+                        </td>
+                        <td>
+                            <div>
+                                <img src="Resources/video.svg" ng-click=openVideoLink(paper.videoLink) ng-if="paper.videoLink != null" />
+                            </div>
+                        </td>
+                        <td style="visibility:hidden;">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </body>
+</html>

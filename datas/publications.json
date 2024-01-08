@@ -1,0 +1,156 @@
+{
+    "posters" : 
+    [    
+        {
+            "authors" : "M. Sereno, T. Isenberg",
+            "title"   : "Subjective Views in Co-Located Augmented Reality–Initial Design",
+            "venue"   : "Posters at the IEEE Conference on Visualization (IEEE VIS, October 25–30, Virtual Conference)",
+            "year"    : "2020",
+            "month"   : "October",
+            "address" : "Los Alamitos",
+            "publicationLink" : "Resources/Papers/SubjectiveView_Poster.pdf",
+            "videoLink" : "https://www.youtube.com/embed/rJe29_SOyp8",
+            "posterLink": "Resources/Papers/VIS2020Poster_SubjectiveViews.png"
+        },
+        {
+            "authors" : "S. Gosset, M. Sereno, L. Besançon, T. Isenberg",
+            "title"   : "Tangible Volumetric Brushing in Augmented Reality",
+            "venue"   : "Posters at the IEEE Conference on Visualization (IEEE VIS, October 25–30, Virtual Conference)",
+            "year"    : "2020",
+            "month"   : "October",
+            "address" : "Los Alamitos",
+            "publicationLink" : "Resources/Papers/TangibleBrushAR_Poster.pdf",
+            "videoLink" : "https://www.youtube.com/embed/o8AGaiPuFDg",
+            "posterLink": "Resources/Papers/VIS2020Poster_TangibleBrush.png"
+        },
+        {
+            "authors" : "M. Sereno, L. Besançon, T. Isenberg",
+            "title"   : "Supporting Volumetric Data Visualization and Analysis by Combining Augmented Reality Visuals with Multi-Touch Input",
+            "venue"   : "The Eurographics Association",
+            "year"    : "2019",
+            "month"   : "June",
+            "address" : "Los Alamitos",
+            "publicationLink" : "https://hal.inria.fr/hal-02123904/document",
+            "posterLink": "Resources/Papers/EuroVis2019Poster.pdf",
+            "videoLink" : "https://www.youtube.com/embed/mN-KNlqXlBE",
+            "doi" : "10.2312/eurp.20191136"
+        },
+        {
+            "authors" : "M. Sereno, M. Ammi, T. Isenberg, L. Besançon",
+            "title"   : "Tangible Brush: Performing 3D Selection with Portable and Position-aware Devices",
+            "venue"   : "Posters at the IEEE Conference on Visualization (IEEE VIS, October 23–28, Baltimore, Maryland, USA)",
+            "year"    : "2016",
+            "month"   : "October",
+            "address" : "Los Alamitos",
+            "publicationLink" : "https://hal.inria.fr/hal-01372925/document",
+            "posterLink" : "Resources/Papers/TangibleBrushPoster.pdf",
+            "videoLink" : "https://www.youtube.com/embed/2bxPQT7p3F8"
+        }
+    ],
+    "papers" : 
+    [
+        {
+            "authors"   : "M. Sereno, S. Gosset, L. Besançon, T. Isenberg",
+            "title"     : "Hybrid Touch/Tangible Spatial Selection in Augmented Reality",
+            "venue"     : "Computer Graphics Forum",
+            "publicationLink" : "Resources/Papers/EuroVis2022_TangibleBrushAR.pdf",
+            "year"      : "2022",
+            "month"     : "June",
+            "note"      : "to appear",
+            "refPage"   : "41(3)",
+            "videoLink" : "https://youtube.com/embed/JrBdTcuqHts"
+        },
+        {
+            "authors"   : "M. Sereno",
+            "title"     : "Collaborative Data Exploration and Discussion Supported by Augmented Reality",
+            "venue"     : "PhD thesis",
+            "publisher" : "Université Paris-Saclay",
+            "publicationLink" : "Resources/Papers/thesis.pdf",
+            "year"      : "2022"
+        },
+        {
+            "authors"   : "M. Sereno, L. Besançon, T. Isenberg",
+            "title"     : "Point Specification in Collaborative Visualization for 3D Scalar Fields Using Augmented Reality",
+            "venue"     : "Virtual Reality",
+            "publisher" : "Springer",
+            "publicationLink" : "Resources/Papers/VRSpringer2021.pdf",
+            "year"      : "to appear",
+            "doi"       : "10.1007/s10055-021-00614-2",
+            "videoLink" : "https://youtube.com/embed/2nE8WSajZhw"
+        },
+        {
+            "authors"   : "M. Sereno, X. Wang, L. Besançon, M. J. McGuffin, T. Isenberg",
+            "title"     : "Collaborative Work in Augmented Reality: A Survey",
+            "venue"     : "Transaction on Visualization and Computer Graphics (TVCG)",
+            "publisher" : "IEEE",
+            "doi"       : "10.1109/TVCG.2020.3032761",
+            "publicationLink" : "Resources/Papers/TVCG2021_Survey.pdf",
+            "year"      : "to appear"
+        },
+        {
+            "authors" : "X. Wang, L. Besançon, D. Rousseau, M. Sereno, M. Ammi, T. Isenberg",
+            "title"   : "Towards an Understanding of Augmented Reality Extensions for Existing 3D Data Analysis Tools",
+            "venue"   : "Proceedings of Human -Computer Interaction",
+            "month"   : "May",
+            "year"    : "2020",
+            "address" : "New York",
+            "refPage" : "1-13",
+            "publicationLink" : "Resources/Papers/CHI2020.pdf",
+            "videoLink" : "https://www.youtube.com/embed/wDPXuUe-FNs",
+            "doi" : "10.1145/3313831.3376657"
+        },
+        {
+            "authors" : "L. Besançon, M. Sereno, M. Ammi, L. Yu, T. Isenberg" ,
+            "title"   : "Hybrid Touch/Tangible Spatial 3D Data Selection",
+            "venue"   : "Computer Graphics Forum",
+            "month"   : "June",
+            "year"    : "2019",
+            "refPage" : "38(3):553-567",
+            "publicationLink" : "Resources/Papers/EuroVis2019.pdf",
+            "videoLink": "https://www.youtube.com/embed/vTzGdNSW7vE",
+            "doi" : "10.1111/cgf.13710"
+        },
+        {
+            "authors" : "X. Wang, L. Besançon, F. Guéniat, M. Sereno, M. Ammi, T. Isenberg" ,
+            "title"   : "A Vision of Bringing Immersive Visualization to Scientific Workflows",
+            "venue"   : "Proceedings of the CHI Workshop on Immersive Analytics: Interaction Design and Prototyping for Immersive Analytics",
+            "month"   : "May",
+            "year"    : "2019",
+            "address" : "New York",
+            "publisher" : "Barrett Ens, Maxime Cordeil, Ulrich Engelke, Marcos Serrano, Wesley Willett, and Benjamin Bach, editors",
+            "publicationLink" : "Resources/Papers/CHIWorkshop2019.pdf"
+        },
+        {
+            "authors" : "M. Sereno, B. Köhler, B. Preim" ,
+            "title"   : "Comparison of Divergence-Free Filters for Cardiac 4D PC-MRI Data",
+            "venue"   : "Bildverarbeitung für die Medizin (BVM)",
+            "year"    : "2018",
+            "refPage" : "139-144",
+            "publisher" : "Springer Vieweg",
+            "publicationLink" : "Resources/Papers/ComparisonOfDivergenceFreeFilters.pdf",
+            "doi" : "10.1007/978-3-662-56537-7_44"
+        },
+        {
+            "authors" : "M. Sereno, M. Ammi, T. Isenberg, L. Besançon",
+            "title"   : "Combining tactile and tangible input for 3D selection",
+            "venue"   : "Proceedings of the Conference on Interaction Homme-Machine",
+            "year"    : "2017",
+            "address" : "New York",
+            "refPage" : "207-212",
+            "publicationLink" : "IHM2017.pdf",
+            "posterLink" : "Resources/Papers/TangibleBrushPoster.pdf",
+            "videoLink" : "https://www.youtube.com/embed/2bxPQT7p3F8",
+            "doi" : "10.1145/3132129.3132150"
+        },
+        {
+            "authors" : "M. Sereno, S. Lupone, M. Debiossac, N. Kalashnyk, P.Roncin" ,
+            "title"   : "Active correction of the tilt angle of the surface plane with respect to the rotation axis during azimuthal scan",
+            "venue"   : "Nuclear Instruments and Methods in Physics Research Section B: Beam Interactions with Materials and Atoms",
+            "year"    : "2016",
+            "month"   : "September",
+            "refPage" : "382:123-126",
+            "publicationLink" : "Resources/Papers/NIMPRB2016.pdf",
+            "doi" : "10.1016/j.nimb.2016.05.001"
+        }
+    ]
+}

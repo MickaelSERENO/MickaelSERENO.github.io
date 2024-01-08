@@ -1,0 +1,157 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+#menu ul
+{
+	position:fixed;
+	list-style-type:none;
+	text-align:center;
+	width:100%;
+	background-color:#777777;
+    z-index:50;
+}
+
+#menu a
+{
+	text-decoration: none;
+	color:white;
+}
+
+#menu li
+{
+	line-height:4em;
+	margin-left:50px;
+	display:inline-block;
+	text-align:center;
+	font-weight:bold;
+	font-size:large;
+	color:white;
+}
+
+.just
+{
+    text-align:justify;
+}
+
+.link
+{
+    font-weight:bold;
+    color:black;
+}
+
+.tableContent p,
+.publicationContent p
+{
+    text-align:justify;
+}
+
+.tableContent,
+.publicationContent
+{
+	border-collapse:separate; 
+	border-spacing:1em;
+}
+
+.publicationContent
+{
+	margin: auto;
+}
+
+.publicationContent td:first-child
+{
+    vertical-align:top;
+    width:4%;
+}
+
+.publicationContent td:nth-child(3),
+.publicationContent td:nth-child(4),
+.publicationContent td:nth-child(5)
+{
+    vertical-align:top;
+    width:3%;
+    max-width:200px;
+}
+
+.publicationContent td:nth-child(3) img,
+.publicationContent td:nth-child(4) img,
+.publicationContent td:nth-child(5) img
+{
+    width:100%;
+}
+
+.publicationContent .trPublicationHeader td
+{
+	border-top:none;
+}
+
+.publicationHeader
+{
+    text-align:center;
+    font-style:bold;
+}
+
+.publicationTitle
+{
+    font-style:italic;
+}
+
+#corps
+{
+	padding-top:5em;
+}
+
+#contact
+{
+	text-align:right;
+}
+
+#presentation
+{
+	padding-bottom:1em;
+}
+
+.date
+{
+	font-style:italic;
+	padding-bottom:1em;
+}
+
+.section .col-md-9,
+.section td,
+.publicationContent tr td,
+.section .row
+{
+	border-top:1px solid black;
+}
+
+.description
+{
+	padding-left:2em;
+	list-style-type:decimal;
+}
+
+.title
+{
+    font-style:italic;
+}
+
+.tableSkill
+{
+	padding-left:2em;
+    table-layout: fixed;
+}
+
+.tableSkill td
+{
+    width:1%;
+    padding-left:2em;
+}
+
+.alignBottomRight
+{
+  display:table-cell;
+  vertical-align:bottom;
+}
